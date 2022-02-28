@@ -1,0 +1,516 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+ul {
+    color: #000000;
+    list-style-type: none;
+}
+
+/* h2 {
+    font-size: 36px;
+    line-height: 50px;
+} */
+
+
+/* SITE HEADER */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.site-logo-img {
+    display: flex;
+    width: 160px;
+    height: 41px;
+}
+
+.site-nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.site-nav-item {
+    margin-left: 40px;
+}
+
+.site-nav-link {
+    font-size: 18px;
+    line-height: 23px;
+    color: #1f1534;
+    opacity: 0.5;
+}
+
+.site-nav-link--activ {
+    font-weight: bold;
+    opacity: 1;
+}
+
+
+/* SITE-Hero */
+
+.site-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+}
+
+.site-hero-content {
+    width: 445px;
+}
+
+.hero-content-heading {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.hero-content-text {
+    margin: 0;
+    margin-bottom: 45px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7d7987;
+}
+
+.hero-content-link {
+    background-color: #458ff6;
+    color: #ffffff;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    border-radius: 55px;
+}
+
+.hero-content-img {
+    width: 693px;
+    height: 598px;
+}
+
+
+
+/* SITE-Service */
+.site-service {
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 220px;
+}
+
+.service-heading {
+    text-align: center;
+    font-size: 36px;
+    line-height: 56px;
+    margin: 0;
+    margin-bottom: 26px;
+}
+
+.site-service-hr {
+    background: #000000;
+    width: 56px;
+    height: 2px;
+    margin-bottom: 33px;
+}
+
+.service-text {
+    width: 952px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7d7987;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.service-list-item {
+    background-color: #f9faf9;
+    padding: 50px 50px 45px 40px;
+    margin: 11px;
+    width: 350px;
+}
+
+.service-img {
+    width: 90px;
+    height: 90px;
+}
+
+.service-heading {
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.service-list-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.site-service-link-wrapper {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.site-service-link {
+    color: #458ff6;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    border: 2px solid #458ff6;
+    border-radius: 55px;
+}
+
+
+/* SITE-Second-Hero-ya'ni ikkinchi Hero */
+.site-second-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+    margin-bottom: 230px;
+}
+
+.second-hero-img {
+    width: 650px;
+    height: 477px;
+}
+
+.second-hero-box {
+    width: 450px;
+}
+
+.second-hero-box-heading {
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 26px;
+}
+
+.second-hero-box-hr {
+    background: #000000;
+    width: 56px;
+    height: 2px;
+    margin: 0;
+    margin-bottom: 31px;
+}
+
+.second-hero-text {
+    margin: 0;
+    margin-bottom: 37px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.site-second-hero-link {
+    color: #458ff6;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    border: 2px solid #458ff6;
+    border-radius: 55px;
+    
+}
+
+
+/* SITE-Third-Hero-ya'ni uchinchi Hero */
+
+.site-third-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+    margin-bottom: 230px;       
+}
+
+.third-hero-box {
+    width: 420px;
+}
+
+.third-hero-box-heading {
+    font-size: 36px;
+    line-height: 48px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.third-hero-box-hr {
+    background: #000000;
+    width: 56px;
+    height: 2px;
+    margin: 0;
+    margin-bottom: 31px;
+}
+
+.third-hero-box-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.third-hero-box-link {
+    color: #458ff6;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    border: 2px solid #458ff6;
+    border-radius: 55px;
+}
+
+.hero-3-img {
+    width: 665px;
+    height: 434px;
+}
+
+
+/* SITE-Quote */
+
+.site-quote {
+    background-color: #60abf2;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1220px;
+    margin-bottom: 150px;
+    border-radius: 24px;
+}
+
+.site-quote-heading {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 25px;
+}
+
+.quote-hr {
+    background: #ffffff;
+    text-align: center;
+    width: 56px;
+    height: 2px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.quote-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quote-left_side {
+    width: 350px;
+    display: flex;
+}
+
+.quote-img {
+    width: 141px;
+    height: 141px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.quote-box-name {
+    display: inline-block;
+}
+
+.quote-text-1 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+}
+
+.quote-text-2 {
+    font-size: 18px;
+    line-height: 48px;
+}
+
+blockquote {
+    display: flex;
+    width: 420px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+
+
+/* SITE-Article-Maqola qismni. */
+.site-article {
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.site-article-heading {
+    text-align: center;
+    font-size: 36px;
+    line-height: 56px;
+    margin: 0;
+    margin-bottom: 26px;    
+}
+
+.site-article-hr {
+    background: #000000;
+    width: 56px;
+    height: 2px;
+    margin-bottom: 72px;
+}
+
+.article-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.article-list-item {
+    background-color: #f9faf9;
+    width: 370px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid #f9faf9;
+}
+
+.article-img {
+    width: 350px;
+    height: 240px;
+}
+
+.article-heading {
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.article-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.article-link {
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+}
+
+.site-article-link-wrapper {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.site-article-link {
+    color: #458ff6;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    border: 2px solid #458ff6;
+    border-radius: 55px;
+}
+
+
+
+
+
+/* SITE-Footer-ya'ni Eng pastki qism */
+.footer{
+    background-color: #60ABF2;
+}
+
+.footer-wrapper {
+    width: 1220px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.footer-side-info {
+    width: 380px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer-box {
+    display: inline-block;
+    text-align: start;
+    width: 220px;
+}
+
+.footer-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.footer-link {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+
+/* Footer qismida ozgina chala joyi qolib ketti, sababi vaqt yetmay qoldi. Shuni keyin to'g'irlab qo'yishim kerak. */
